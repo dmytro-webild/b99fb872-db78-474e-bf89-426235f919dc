@@ -79,10 +79,10 @@ export default function LandingPage() {
               title: "Life Insurance Products",              description: "Flexible coverage options including term life, whole life, universal life, final expense, and annuities tailored to your needs.",              icon: Heart,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/front-view-parents-kid-sitting-couch_23-2149610757.jpg",                  imageAlt: "life insurance family protection coverage plans security"
+                  imageSrc: "http://img.b2bpic.net/free-photo/front-view-parents-kid-sitting-couch_23-2149610757.jpg?_wi=1",                  imageAlt: "life insurance family protection coverage plans security"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/happy-daughter-embracing-kissing-her-working-parents-home_637285-12186.jpg",                  imageAlt: "family planning insurance protection financial security household"
+                  imageSrc: "http://img.b2bpic.net/free-photo/happy-daughter-embracing-kissing-her-working-parents-home_637285-12186.jpg?_wi=1",                  imageAlt: "family planning insurance protection financial security household"
                 }
               ]
             },
@@ -90,10 +90,10 @@ export default function LandingPage() {
               title: "Debt Solutions",              description: "Strategic debt consolidation and elimination programs with 1 free consultation then flexible pricing to accelerate your path to financial freedom.",              icon: TrendingUp,
               mediaItems: [
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/closeup-debts-help-me-written-scramble-board-lights_181624-20912.jpg",                  imageAlt: "debt reduction financial planning budget management economy"
+                  imageSrc: "http://img.b2bpic.net/free-photo/closeup-debts-help-me-written-scramble-board-lights_181624-20912.jpg?_wi=1",                  imageAlt: "debt reduction financial planning budget management economy"
                 },
                 {
-                  imageSrc: "http://img.b2bpic.net/free-photo/finance-investment-banking-cost-concept_53876-133721.jpg",                  imageAlt: "financial tools wealth planning money management strategy"
+                  imageSrc: "http://img.b2bpic.net/free-photo/finance-investment-banking-cost-concept_53876-133721.jpg?_wi=1",                  imageAlt: "financial tools wealth planning money management strategy"
                 }
               ]
             },
@@ -134,19 +134,19 @@ export default function LandingPage() {
           tagIcon={DollarSign}
           plans={[
             {
-              id: "term",              title: "Term Life Insurance",              price: "Affordable",              period: "rates",              imageSrc: "http://img.b2bpic.net/free-photo/front-view-parents-kid-sitting-couch_23-2149610757.jpg",              imageAlt: "term life insurance family protection",              button: { text: "Learn More", href: "contact" },
+              id: "term",              title: "Term Life Insurance",              price: "Affordable",              period: "rates",              imageSrc: "http://img.b2bpic.net/free-photo/front-view-parents-kid-sitting-couch_23-2149610757.jpg?_wi=2",              imageAlt: "term life insurance family protection",              button: { text: "Learn More", href: "contact" },
               features: [
                 "Coverage for 10, 20, or 30 years",                "Affordable monthly premiums",                "Renewable and convertible options",                "No medical exams available"
               ]
             },
             {
-              id: "whole",              title: "Whole Life Insurance",              price: "Lifetime",              period: "coverage",              imageSrc: "http://img.b2bpic.net/free-photo/happy-daughter-embracing-kissing-her-working-parents-home_637285-12186.jpg",              imageAlt: "whole life insurance permanent coverage",              button: { text: "Learn More", href: "contact" },
+              id: "whole",              title: "Whole Life Insurance",              price: "Lifetime",              period: "coverage",              imageSrc: "http://img.b2bpic.net/free-photo/happy-daughter-embracing-kissing-her-working-parents-home_637285-12186.jpg?_wi=2",              imageAlt: "whole life insurance permanent coverage",              button: { text: "Learn More", href: "contact" },
               features: [
                 "Lifetime coverage with guaranteed death benefit",                "Cash value accumulation",                "Fixed premiums",                "Loan and withdrawal options"
               ]
             },
             {
-              id: "universal",              title: "Universal Life Insurance",              price: "Flexible",              period: "protection",              imageSrc: "http://img.b2bpic.net/free-photo/successful-businesswoman-ready-challenges_1163-4336.jpg",              imageAlt: "universal life insurance flexible premiums",              button: { text: "Learn More", href: "contact" },
+              id: "universal",              title: "Universal Life Insurance",              price: "Flexible",              period: "protection",              imageSrc: "http://img.b2bpic.net/free-photo/successful-businesswoman-ready-challenges_1163-4336.jpg?_wi=1",              imageAlt: "universal life insurance flexible premiums",              button: { text: "Learn More", href: "contact" },
               features: [
                 "Flexible premium payments",                "Adjustable death benefits",                "Interest-bearing cash value",                "Transparent policy tracking"
               ]
@@ -158,7 +158,7 @@ export default function LandingPage() {
               ]
             },
             {
-              id: "annuities",              title: "Annuities",              price: "Income",              period: "protection",              imageSrc: "http://img.b2bpic.net/free-photo/business-lady-looking-copyspace-with-interest_1262-2957.jpg",              imageAlt: "annuities retirement income planning",              button: { text: "Learn More", href: "contact" },
+              id: "annuities",              title: "Annuities",              price: "Income",              period: "protection",              imageSrc: "http://img.b2bpic.net/free-photo/business-lady-looking-copyspace-with-interest_1262-2957.jpg?_wi=1",              imageAlt: "annuities retirement income planning",              button: { text: "Learn More", href: "contact" },
               features: [
                 "Guaranteed income streams",                "Various annuity types available",                "Tax-deferred growth",                "Personalized income solutions"
               ]
@@ -178,13 +178,13 @@ export default function LandingPage() {
           tagIcon={DollarSign}
           plans={[
             {
-              id: "consultation",              title: "Free Initial Consultation",              price: "Free",              period: "",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-debts-help-me-written-scramble-board-lights_181624-20912.jpg",              imageAlt: "free consultation debt solutions",              button: { text: "Schedule Now", href: "schedule" },
+              id: "consultation",              title: "Free Initial Consultation",              price: "Free",              period: "",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-debts-help-me-written-scramble-board-lights_181624-20912.jpg?_wi=2",              imageAlt: "free consultation debt solutions",              button: { text: "Schedule Now", href: "schedule" },
               features: [
                 "In-depth financial assessment",                "Debt analysis and review",                "Personalized strategy discussion",                "No obligation commitment"
               ]
             },
             {
-              id: "consolidation",              title: "Debt Consolidation Program",              price: "Flexible",              period: "pricing",              imageSrc: "http://img.b2bpic.net/free-photo/finance-investment-banking-cost-concept_53876-133721.jpg",              imageAlt: "debt consolidation flexible rates",              button: { text: "Get Started", href: "contact" },
+              id: "consolidation",              title: "Debt Consolidation Program",              price: "Flexible",              period: "pricing",              imageSrc: "http://img.b2bpic.net/free-photo/finance-investment-banking-cost-concept_53876-133721.jpg?_wi=2",              imageAlt: "debt consolidation flexible rates",              button: { text: "Get Started", href: "contact" },
               features: [
                 "Customized consolidation plans",                "Negotiated interest rates",                "Single monthly payment",                "Clear path to debt freedom"
               ]
@@ -219,13 +219,13 @@ export default function LandingPage() {
           useInvertedBackground={false}
           testimonials={[
             {
-              id: "1",              title: "Life-Changing Financial Protection",              quote: "NSL helped me secure my family's future with a comprehensive plan I actually understand. Their team was patient, thorough, and genuinely cared about my concerns.",              name: "Jennifer Martinez",              role: "Homeowner & Parent",              imageSrc: "http://img.b2bpic.net/free-photo/successful-businesswoman-ready-challenges_1163-4336.jpg",              imageAlt: "professional headshot woman portrait business professional confident"
+              id: "1",              title: "Life-Changing Financial Protection",              quote: "NSL helped me secure my family's future with a comprehensive plan I actually understand. Their team was patient, thorough, and genuinely cared about my concerns.",              name: "Jennifer Martinez",              role: "Homeowner & Parent",              imageSrc: "http://img.b2bpic.net/free-photo/successful-businesswoman-ready-challenges_1163-4336.jpg?_wi=2",              imageAlt: "professional headshot woman portrait business professional confident"
             },
             {
               id: "2",              title: "Debt Freedom in Sight",              quote: "After years of struggling with multiple debts, NSL's consolidation strategy gave me a clear roadmap to financial freedom. I'm on track to be debt-free in 3 years.",              name: "Michael Chen",              role: "Business Owner",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=1",              imageAlt: "business owner portrait man headshot entrepreneur professional"
             },
             {
-              id: "3",              title: "Peace of Mind at Last",              quote: "The personalized approach NSL took with my situation was exactly what I needed. I finally feel protected and confident about my financial future.",              name: "Sarah Thompson",              role: "Corporate Manager",              imageSrc: "http://img.b2bpic.net/free-photo/business-lady-looking-copyspace-with-interest_1262-2957.jpg",              imageAlt: "corporate manager portrait woman business professional headshot confident"
+              id: "3",              title: "Peace of Mind at Last",              quote: "The personalized approach NSL took with my situation was exactly what I needed. I finally feel protected and confident about my financial future.",              name: "Sarah Thompson",              role: "Corporate Manager",              imageSrc: "http://img.b2bpic.net/free-photo/business-lady-looking-copyspace-with-interest_1262-2957.jpg?_wi=2",              imageAlt: "corporate manager portrait woman business professional headshot confident"
             },
             {
               id: "4",              title: "Professional Guidance I Can Trust",              quote: "NSL's advisors are transparent, knowledgeable, and always available. They've become my trusted financial partners in this journey.",              name: "David Williams",              role: "Entrepreneur",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2",              imageAlt: "entrepreneur portrait man business professional headshot confident"
