@@ -5,12 +5,12 @@ import NavbarLayoutFloatingInline from "@/components/navbar/NavbarLayoutFloating
 import HeroBillboard from "@/components/sections/hero/HeroBillboard";
 import TextAbout from "@/components/sections/about/TextAbout";
 import FeatureCardTwentyFive from "@/components/sections/feature/FeatureCardTwentyFive";
-import PricingCardThree from "@/components/sections/pricing/PricingCardThree";
+import PricingCardNine from "@/components/sections/pricing/PricingCardNine";
 import TestimonialCardTen from "@/components/sections/testimonial/TestimonialCardTen";
 import FaqSplitText from "@/components/sections/faq/FaqSplitText";
 import ContactText from "@/components/sections/contact/ContactText";
 import FooterBaseCard from "@/components/sections/footer/FooterBaseCard";
-import { AlertCircle, Briefcase, DollarSign, Heart, PieChart, Shield, Star, TrendingUp, Users } from "lucide-react";
+import { AlertCircle, Briefcase, Calendar, DollarSign, Heart, PieChart, Shield, Star, TrendingUp, Users } from "lucide-react";
 
 export default function LandingPage() {
   return (
@@ -32,7 +32,7 @@ export default function LandingPage() {
           navItems={[
             { name: "About", id: "about" },
             { name: "Services", id: "services" },
-            { name: "Pricing", id: "pricing" },
+            { name: "Schedule", id: "schedule" },
             { name: "FAQ", id: "faq" }
           ]}
           button={{ text: "Get Started", href: "contact" }}
@@ -49,7 +49,7 @@ export default function LandingPage() {
           background={{ variant: "plain" }}
           buttons={[
             { text: "Explore Solutions", href: "services" },
-            { text: "Schedule Consultation", href: "contact" }
+            { text: "Schedule Consultation", href: "schedule" }
           ]}
           imageSrc="http://img.b2bpic.net/free-photo/side-view-people-looking-picture-album_23-2149515314.jpg"
           imageAlt="financial security family protection investment planning insurance concept"
@@ -76,7 +76,7 @@ export default function LandingPage() {
           tagIcon={Briefcase}
           features={[
             {
-              title: "Life Insurance Plans",              description: "Flexible coverage options including term, whole life, and universal life insurance tailored to your needs.",              icon: Heart,
+              title: "Life Insurance Products",              description: "Flexible coverage options including term life, whole life, universal life, final expense, and annuities tailored to your needs.",              icon: Heart,
               mediaItems: [
                 {
                   imageSrc: "http://img.b2bpic.net/free-photo/front-view-parents-kid-sitting-couch_23-2149610757.jpg",                  imageAlt: "life insurance family protection coverage plans security"
@@ -87,7 +87,7 @@ export default function LandingPage() {
               ]
             },
             {
-              title: "Debt Management",              description: "Strategic debt consolidation and elimination programs designed to accelerate your path to financial freedom.",              icon: TrendingUp,
+              title: "Debt Solutions",              description: "Strategic debt consolidation and elimination programs with 1 free consultation then flexible pricing to accelerate your path to financial freedom.",              icon: TrendingUp,
               mediaItems: [
                 {
                   imageSrc: "http://img.b2bpic.net/free-photo/closeup-debts-help-me-written-scramble-board-lights_181624-20912.jpg",                  imageAlt: "debt reduction financial planning budget management economy"
@@ -98,7 +98,7 @@ export default function LandingPage() {
               ]
             },
             {
-              title: "Financial Planning",              description: "Comprehensive wealth planning and investment guidance to secure your long-term financial objectives.",              icon: PieChart,
+              title: "Retirement Planning",              description: "Comprehensive retirement planning services to help you build and preserve wealth for a secure future.",              icon: PieChart,
               mediaItems: [
                 {
                   imageSrc: "http://img.b2bpic.net/free-photo/unrecognizable-businessman-pointing-printed-chart-showing-graph-colleagues-professional-content-partners-making-notes-statistics-cooperation-communication-partnership-concept_74855-14267.jpg",                  imageAlt: "investment portfolio wealth management financial advisor planning"
@@ -126,45 +126,86 @@ export default function LandingPage() {
         />
       </div>
 
-      <div id="pricing" data-section="pricing">
-        <PricingCardThree
-          title="Transparent Pricing Plans"
-          description="Choose the coverage level that fits your life and budget."
-          tag="Pricing"
+      <div id="products" data-section="products">
+        <PricingCardNine
+          title="Life Insurance Products"
+          description="Choose the coverage type that fits your life and budget."
+          tag="Insurance Options"
           tagIcon={DollarSign}
           plans={[
             {
-              id: "basic",              price: "$49/mo",              name: "Essential Protection",              buttons: [
-                { text: "Get Started", href: "contact" },
-                { text: "Learn More", href: "#" }
-              ],
+              id: "term",              title: "Term Life Insurance",              price: "Affordable",              period: "rates",              imageSrc: "http://img.b2bpic.net/free-photo/front-view-parents-kid-sitting-couch_23-2149610757.jpg",              imageAlt: "term life insurance family protection",              button: { text: "Learn More", href: "contact" },
               features: [
-                "$250,000 life insurance coverage",                "Basic debt management consultation",                "Quarterly financial reviews",                "Emergency support hotline"
+                "Coverage for 10, 20, or 30 years",                "Affordable monthly premiums",                "Renewable and convertible options",                "No medical exams available"
               ]
             },
             {
-              id: "pro",              badge: "Most Popular",              badgeIcon: Star,
-              price: "$99/mo",              name: "Comprehensive Solution",              buttons: [
-                { text: "Get Started", href: "contact" },
-                { text: "Learn More", href: "#" }
-              ],
+              id: "whole",              title: "Whole Life Insurance",              price: "Lifetime",              period: "coverage",              imageSrc: "http://img.b2bpic.net/free-photo/happy-daughter-embracing-kissing-her-working-parents-home_637285-12186.jpg",              imageAlt: "whole life insurance permanent coverage",              button: { text: "Learn More", href: "contact" },
               features: [
-                "$500,000 life insurance coverage",                "Full debt consolidation program",                "Monthly financial planning sessions",                "Priority customer support",                "Investment guidance included"
+                "Lifetime coverage with guaranteed death benefit",                "Cash value accumulation",                "Fixed premiums",                "Loan and withdrawal options"
               ]
             },
             {
-              id: "premium",              price: "$199/mo",              name: "Premium Protection Plus",              buttons: [
-                { text: "Get Started", href: "contact" },
-                { text: "Learn More", href: "#" }
-              ],
+              id: "universal",              title: "Universal Life Insurance",              price: "Flexible",              period: "protection",              imageSrc: "http://img.b2bpic.net/free-photo/successful-businesswoman-ready-challenges_1163-4336.jpg",              imageAlt: "universal life insurance flexible premiums",              button: { text: "Learn More", href: "contact" },
               features: [
-                "$1,000,000 life insurance coverage",                "Advanced wealth management",                "Unlimited financial consulting",                "24/7 dedicated support team",                "Estate planning services",                "Tax optimization strategies"
+                "Flexible premium payments",                "Adjustable death benefits",                "Interest-bearing cash value",                "Transparent policy tracking"
+              ]
+            },
+            {
+              id: "final",              title: "Final Expense Insurance",              price: "Budget-Friendly",              period: "options",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg",              imageAlt: "final expense insurance coverage",              button: { text: "Learn More", href: "contact" },
+              features: [
+                "Coverage for funeral and burial costs",                "Quick application process",                "No medical underwriting",                "Immediate coverage available"
+              ]
+            },
+            {
+              id: "annuities",              title: "Annuities",              price: "Income",              period: "protection",              imageSrc: "http://img.b2bpic.net/free-photo/business-lady-looking-copyspace-with-interest_1262-2957.jpg",              imageAlt: "annuities retirement income planning",              button: { text: "Learn More", href: "contact" },
+              features: [
+                "Guaranteed income streams",                "Various annuity types available",                "Tax-deferred growth",                "Personalized income solutions"
               ]
             }
           ]}
           animationType="slide-up"
           textboxLayout="default"
           useInvertedBackground={false}
+        />
+      </div>
+
+      <div id="debtpricing" data-section="debtpricing">
+        <PricingCardNine
+          title="Debt Solutions Pricing"
+          description="Get started on your path to financial freedom with transparent pricing."
+          tag="Debt Services"
+          tagIcon={DollarSign}
+          plans={[
+            {
+              id: "consultation",              title: "Free Initial Consultation",              price: "Free",              period: "",              imageSrc: "http://img.b2bpic.net/free-photo/closeup-debts-help-me-written-scramble-board-lights_181624-20912.jpg",              imageAlt: "free consultation debt solutions",              button: { text: "Schedule Now", href: "schedule" },
+              features: [
+                "In-depth financial assessment",                "Debt analysis and review",                "Personalized strategy discussion",                "No obligation commitment"
+              ]
+            },
+            {
+              id: "consolidation",              title: "Debt Consolidation Program",              price: "Flexible",              period: "pricing",              imageSrc: "http://img.b2bpic.net/free-photo/finance-investment-banking-cost-concept_53876-133721.jpg",              imageAlt: "debt consolidation flexible rates",              button: { text: "Get Started", href: "contact" },
+              features: [
+                "Customized consolidation plans",                "Negotiated interest rates",                "Single monthly payment",                "Clear path to debt freedom"
+              ]
+            }
+          ]}
+          animationType="slide-up"
+          textboxLayout="default"
+          useInvertedBackground={false}
+        />
+      </div>
+
+      <div id="schedule" data-section="schedule">
+        <ContactText
+          text="Ready to discuss your financial needs? Schedule a meeting with one of our experienced advisors today. We offer flexible appointment times to fit your busy schedule."
+          animationType="entrance-slide"
+          background={{ variant: "plain" }}
+          useInvertedBackground={false}
+          buttons={[
+            { text: "Schedule a Meeting", href: "#" },
+            { text: "Contact Our Team", href: "#" }
+          ]}
         />
       </div>
 
@@ -208,7 +249,7 @@ export default function LandingPage() {
           faqsAnimation="slide-up"
           faqs={[
             {
-              id: "1",              title: "What types of life insurance do you offer?",              content: "We offer term life insurance (10, 20, and 30-year options), whole life insurance for permanent coverage, and universal life insurance with flexible premiums. Each option is customizable to fit your specific needs and budget."
+              id: "1",              title: "What types of life insurance do you offer?",              content: "We offer term life insurance (10, 20, and 30-year options), whole life insurance for permanent coverage, universal life insurance with flexible premiums, final expense insurance for funeral and burial costs, and annuities for retirement income. Each option is customizable to fit your specific needs and budget."
             },
             {
               id: "2",              title: "How does debt consolidation work?",              content: "Our debt consolidation program combines multiple debts into a single, manageable payment with a lower interest rate. We negotiate with creditors on your behalf and create a personalized repayment strategy to help you become debt-free faster."
@@ -248,10 +289,10 @@ export default function LandingPage() {
           columns={[
             {
               title: "Solutions",              items: [
-                { label: "Life Insurance", href: "#services" },
-                { label: "Debt Management", href: "#services" },
-                { label: "Financial Planning", href: "#services" },
-                { label: "Pricing", href: "#pricing" }
+                { label: "Life Insurance", href: "#products" },
+                { label: "Debt Management", href: "#debtpricing" },
+                { label: "Retirement Planning", href: "#services" },
+                { label: "Schedule Meeting", href: "#schedule" }
               ]
             },
             {
