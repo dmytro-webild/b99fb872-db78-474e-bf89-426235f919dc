@@ -198,7 +198,7 @@ export default function LandingPage() {
 
       <div id="schedule" data-section="schedule">
         <ContactText
-          text="Ready to discuss your financial needs? Schedule a meeting with one of our experienced advisors today. We offer flexible appointment times to fit your busy schedule."
+          text="Ready to discuss your financial needs? Schedule a meeting with one of our experienced agents today. We offer flexible appointment times to fit your busy schedule."
           animationType="entrance-slide"
           background={{ variant: "plain" }}
           useInvertedBackground={false}
@@ -228,7 +228,7 @@ export default function LandingPage() {
               id: "3",              title: "Peace of Mind at Last",              quote: "The personalized approach NSL took with my situation was exactly what I needed. I finally feel protected and confident about my financial future.",              name: "Sarah Thompson",              role: "Corporate Manager",              imageSrc: "http://img.b2bpic.net/free-photo/business-lady-looking-copyspace-with-interest_1262-2957.jpg?_wi=2",              imageAlt: "corporate manager portrait woman business professional headshot confident"
             },
             {
-              id: "4",              title: "Professional Guidance I Can Trust",              quote: "NSL's advisors are transparent, knowledgeable, and always available. They've become my trusted financial partners in this journey.",              name: "David Williams",              role: "Entrepreneur",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2",              imageAlt: "entrepreneur portrait man business professional headshot confident"
+              id: "4",              title: "Professional Guidance I Can Trust",              quote: "NSL's agents are transparent, knowledgeable, and always available. They've become my trusted financial partners in this journey.",              name: "David Williams",              role: "Entrepreneur",              imageSrc: "http://img.b2bpic.net/free-photo/close-up-portrait-young-handsome-successful-man_1163-5475.jpg?_wi=2",              imageAlt: "entrepreneur portrait man business professional headshot confident"
             },
             {
               id: "5",              title: "Comprehensive Solution That Works",              quote: "I appreciate how NSL combines life insurance, debt management, and financial planning into one cohesive strategy. It's exactly what I was looking for.",              name: "Emily Rodriguez",              role: "Finance Professional",              imageSrc: "http://img.b2bpic.net/free-photo/portrait-woman-working-business-with-computer_482257-20185.jpg",              imageAlt: "finance professional woman portrait business headshot expert"
@@ -264,7 +264,7 @@ export default function LandingPage() {
               id: "5",              title: "Can I modify my plan if my circumstances change?",              content: "Absolutely. Your life changes, and so should your financial plan. We offer flexible adjustments to your coverage and strategy whenever you need them, at no additional cost."
             },
             {
-              id: "6",              title: "How do I get started?",              content: "Getting started is simple. Schedule a free consultation with one of our advisors, and we'll assess your situation, answer your questions, and create a customized plan tailored to your needs."
+              id: "6",              title: "How do I get started?",              content: "Getting started is simple. Schedule a free consultation with one of our agents, and we'll assess your situation, answer your questions, and create a customized plan tailored to your needs."
             }
           ]}
         />
